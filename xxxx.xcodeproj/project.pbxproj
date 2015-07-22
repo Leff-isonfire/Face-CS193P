@@ -27,14 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		964B152E1AA18D50007F8C64 /* Face-CS193P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face-CS193P.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964B152E1AA18D50007F8C64 /* xxxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xxxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964B15321AA18D50007F8C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964B15331AA18D50007F8C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		964B15351AA18D50007F8C64 /* happinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happinessViewController.swift; sourceTree = "<group>"; };
 		964B15381AA18D50007F8C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964B153A1AA18D50007F8C64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		964B153D1AA18D50007F8C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		964B15431AA18D51007F8C64 /* Face-CS193PTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Face-CS193PTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964B15431AA18D51007F8C64 /* xxxxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xxxxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964B15481AA18D51007F8C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964B15491AA18D51007F8C64 /* xxxxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xxxxTests.swift; sourceTree = "<group>"; };
 		964B15531AA193C9007F8C64 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		964B152F1AA18D50007F8C64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				964B152E1AA18D50007F8C64 /* Face-CS193P.app */,
-				964B15431AA18D51007F8C64 /* Face-CS193PTests.xctest */,
+				964B152E1AA18D50007F8C64 /* xxxx.app */,
+				964B15431AA18D51007F8C64 /* xxxxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		964B152D1AA18D50007F8C64 /* Face-CS193P */ = {
+		964B152D1AA18D50007F8C64 /* xxxx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 964B154D1AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "Face-CS193P" */;
+			buildConfigurationList = 964B154D1AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "xxxx" */;
 			buildPhases = (
 				964B152A1AA18D50007F8C64 /* Sources */,
 				964B152B1AA18D50007F8C64 /* Frameworks */,
@@ -130,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = "Face-CS193P";
+			name = xxxx;
 			productName = xxxx;
-			productReference = 964B152E1AA18D50007F8C64 /* Face-CS193P.app */;
+			productReference = 964B152E1AA18D50007F8C64 /* xxxx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		964B15421AA18D51007F8C64 /* Face-CS193PTests */ = {
+		964B15421AA18D51007F8C64 /* xxxxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 964B15501AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "Face-CS193PTests" */;
+			buildConfigurationList = 964B15501AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "xxxxTests" */;
 			buildPhases = (
 				964B153F1AA18D51007F8C64 /* Sources */,
 				964B15401AA18D51007F8C64 /* Frameworks */,
@@ -148,9 +148,9 @@
 			dependencies = (
 				964B15451AA18D51007F8C64 /* PBXTargetDependency */,
 			);
-			name = "Face-CS193PTests";
+			name = xxxxTests;
 			productName = xxxxTests;
-			productReference = 964B15431AA18D51007F8C64 /* Face-CS193PTests.xctest */;
+			productReference = 964B15431AA18D51007F8C64 /* xxxxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					964B152D1AA18D50007F8C64 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = E3RTRTYVHL;
 					};
 					964B15421AA18D51007F8C64 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -171,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 964B15291AA18D50007F8C64 /* Build configuration list for PBXProject "Face-CS193P" */;
+			buildConfigurationList = 964B15291AA18D50007F8C64 /* Build configuration list for PBXProject "xxxx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				964B152D1AA18D50007F8C64 /* Face-CS193P */,
-				964B15421AA18D51007F8C64 /* Face-CS193PTests */,
+				964B152D1AA18D50007F8C64 /* xxxx */,
+				964B15421AA18D51007F8C64 /* xxxxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		964B15451AA18D51007F8C64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 964B152D1AA18D50007F8C64 /* Face-CS193P */;
+			target = 964B152D1AA18D50007F8C64 /* xxxx */;
 			targetProxy = 964B15441AA18D51007F8C64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +345,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xxxx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Face-CS193P";
+				PRODUCT_NAME = xxxx;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -354,7 +356,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xxxx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Face-CS193P";
+				PRODUCT_NAME = xxxx;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -372,7 +375,7 @@
 				);
 				INFOPLIST_FILE = xxxxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Face-CS193PTests";
+				PRODUCT_NAME = xxxxTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xxxx.app/xxxx";
 			};
 			name = Debug;
@@ -387,7 +390,7 @@
 				);
 				INFOPLIST_FILE = xxxxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Face-CS193PTests";
+				PRODUCT_NAME = xxxxTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xxxx.app/xxxx";
 			};
 			name = Release;
@@ -395,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		964B15291AA18D50007F8C64 /* Build configuration list for PBXProject "Face-CS193P" */ = {
+		964B15291AA18D50007F8C64 /* Build configuration list for PBXProject "xxxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				964B154B1AA18D51007F8C64 /* Debug */,
@@ -404,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		964B154D1AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "Face-CS193P" */ = {
+		964B154D1AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "xxxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				964B154E1AA18D51007F8C64 /* Debug */,
@@ -413,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		964B15501AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "Face-CS193PTests" */ = {
+		964B15501AA18D51007F8C64 /* Build configuration list for PBXNativeTarget "xxxxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				964B15511AA18D51007F8C64 /* Debug */,

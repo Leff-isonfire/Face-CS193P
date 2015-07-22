@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "964B152D1AA18D50007F8C64"
-               BuildableName = "Face-CS193P.app"
-               BlueprintName = "Face-CS193P"
-               ReferencedContainer = "container:Face-CS193P.xcodeproj">
+               BuildableName = "xxxx.app"
+               BlueprintName = "xxxx"
+               ReferencedContainer = "container:xxxx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "964B15421AA18D51007F8C64"
-               BuildableName = "Face-CS193PTests.xctest"
-               BlueprintName = "Face-CS193PTests"
-               ReferencedContainer = "container:Face-CS193P.xcodeproj">
+               BuildableName = "xxxxTests.xctest"
+               BlueprintName = "xxxxTests"
+               ReferencedContainer = "container:xxxx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "964B15421AA18D51007F8C64"
-               BuildableName = "Face-CS193PTests.xctest"
-               BlueprintName = "Face-CS193PTests"
-               ReferencedContainer = "container:Face-CS193P.xcodeproj">
+               BuildableName = "xxxxTests.xctest"
+               BlueprintName = "xxxxTests"
+               ReferencedContainer = "container:xxxx.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "964B152D1AA18D50007F8C64"
-            BuildableName = "Face-CS193P.app"
-            BlueprintName = "Face-CS193P"
-            ReferencedContainer = "container:Face-CS193P.xcodeproj">
+            BuildableName = "xxxx.app"
+            BlueprintName = "xxxx"
+            ReferencedContainer = "container:xxxx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "964B152D1AA18D50007F8C64"
-            BuildableName = "Face-CS193P.app"
-            BlueprintName = "Face-CS193P"
-            ReferencedContainer = "container:Face-CS193P.xcodeproj">
+            BuildableName = "xxxx.app"
+            BlueprintName = "xxxx"
+            ReferencedContainer = "container:xxxx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "964B152D1AA18D50007F8C64"
-            BuildableName = "Face-CS193P.app"
-            BlueprintName = "Face-CS193P"
-            ReferencedContainer = "container:Face-CS193P.xcodeproj">
+            BuildableName = "xxxx.app"
+            BlueprintName = "xxxx"
+            ReferencedContainer = "container:xxxx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

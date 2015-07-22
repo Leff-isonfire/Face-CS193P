@@ -14,7 +14,7 @@ protocol ViewControlerDataSource:class{
 
 class FaceView: UIView {
     
-    let scale:CGFloat = 0.9
+    var scale:CGFloat = 0.9
     var lineWidth: CGFloat = 3 {didSet{setNeedsDisplay()}}
     //    var color:UIColor = UIColor.blueColor(){didSet{setNeedsDisplay()}}
 
@@ -32,6 +32,15 @@ class FaceView: UIView {
         static let eyeVerticalOffsetCoeffcient:CGFloat = 1/3
         static let mouthVerticalOffsetCoeffcient:CGFloat = 1/2
         
+    }
+    
+    func scale(gesture:UIPinchGestureRecognizer){
+        if gesture.state == .Changed{
+            println("1")
+            scale *= gesture.scale
+            gesture.scale = 1
+            setNeedsDisplay()
+        }
     }
     
     weak var dataSource:ViewControlerDataSource?
